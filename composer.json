@@ -1,0 +1,21 @@
+{
+    "name": "DevFighters/php-tools",
+    "description": "mini-framework for Symfony",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Dev Fighters"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DF\\": "src"
+        }
+    }
+}
